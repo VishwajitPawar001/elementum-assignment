@@ -1,16 +1,21 @@
-# React + Vite
+# Elementum - Frontend UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, highly animated, and pixel-perfect implementation of the Elementum agency landing page design. Built for optimal performance and clean component architecture.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**[https://elementum-assignment-xi.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+* **Framework:** React.js (via Vite)
+* **Styling:** Tailwind CSS v4
+* **Animations:** Framer Motion
+* **Deployment:** Vercel
 
-## React Compiler
+## ✨ Key Features Implemented
+1. **Pixel-Perfect Translation:** Accurately converted the provided Figma design into a functional UI.
+2. **Component Reusability:** Built a modular `SplitSection` component that dynamically reverses layout and styling based on passed props.
+3. **Advanced Animations:** Implemented Framer Motion for smooth, professional interactions (scroll reveals, continuous floating, spring-animated hovers).
+4. **Fully Responsive:** Utilized Tailwind's breakpoint system to ensure a seamless experience across Mobile, Tablet, and Desktop, including a custom mobile hamburger menu.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👨‍💻 Author
+**Vishwajit Pawar**
